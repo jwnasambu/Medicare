@@ -46,6 +46,11 @@ section:nth-child(even) {
     letter-spacing: .4rem;
 }
 
+.heading span {
+    text-transform: uppercase;
+    color: var(--green);
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem; 
@@ -250,4 +255,22 @@ section:nth-child(even) {
     box-shadow: var(--box-shadow);
     border: var(--border);
     padding: 2.5rem;
+}
+
+.services .box-container .box i{
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+}
+
+.services .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.services .box-container .box p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    padding: 2;
 }
