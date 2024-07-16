@@ -11,10 +11,10 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none; 
+    outline: none;
     border: none;
     text-transform: capitalize;
     transition: all .2s ease-out;
@@ -53,7 +53,7 @@ section:nth-child(even) {
 
 .btn {
     display: inline-block;
-    margin-top: 1rem; 
+    margin-top: 1rem;
     padding: .5rem;
     padding-left: 1rem;
     border: var(--border);
@@ -112,8 +112,8 @@ section:nth-child(even) {
     margin-left: 2rem;
 }
 
-.header .navbar a:hover { 
-    color: var(--green);  
+.header .navbar a:hover {
+    color: var(--green);
 }
 
 #menu-btn {
@@ -135,7 +135,7 @@ section:nth-child(even) {
 }
 
 .home .image {
-    flex: 1 1 45rem;   
+    flex: 1 1 45rem;
 }
 
 .home .image img {
@@ -147,20 +147,20 @@ section:nth-child(even) {
 }
 
 .home .content h3 {
-   font-size: 3rem;
-   color: var(--black);
-   line-height: 1.8;
-   text-shadow: var(--text-shadow);
+    font-size: 3rem;
+    color: var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
 }
 
 .home .content p {
-   font-size: 1.7rem;
-   color: var(--light-color);
-   line-height: 1.8;
-   padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     html {
         font-size: 55%;
     }
@@ -170,7 +170,7 @@ section:nth-child(even) {
     }
 }
 
-@media (max-width:756px) {
+@media (max-width: 756px) {
     #menu-btn {
         display: initial;
     }
@@ -203,7 +203,7 @@ section:nth-child(even) {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
     html {
         font-size: 50%;
     }
@@ -257,7 +257,7 @@ section:nth-child(even) {
     padding: 2.5rem;
 }
 
-.services .box-container .box i{
+.services .box-container .box i {
     color: var(--green);
     font-size: 5rem;
     padding-bottom: .5rem;
@@ -276,10 +276,10 @@ section:nth-child(even) {
 }
 
 .about .row {
- display: flex;
- align-items: center;
- flex-wrap: wrap;
- gap: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .about .row .image {
@@ -298,7 +298,7 @@ section:nth-child(even) {
     color: var(--black);
     text-shadow: var(--text-shadow);
     font-size: 4rem;
-    line-height: 1.8;
+    line-height: 1;
 }
 
 .about .row .content p {
