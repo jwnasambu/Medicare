@@ -427,8 +427,8 @@ section:nth-child(even) {
 }
 
 .review .box-container .box img {
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     object-fit: cover;
     border: .5rem solid #fff;
@@ -442,7 +442,7 @@ section:nth-child(even) {
 
 .review .box-container .box .stars i {
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 .review .box-container .box .text {
